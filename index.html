@@ -7,7 +7,17 @@
             flex-wrap: wrap;
             justify-content: center;
         }
-
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: 277px;
+        }
+        .logo img {
+            max-width: 100%;
+            max-height: 100%;
+        }
         .card {
             width : 250px;
             height: auto;
@@ -81,7 +91,11 @@
 <body>
 <p data-ke-size="size16"></p>
 <p data-ke-size="size16">&nbsp;</p>
-<p><img src="https://raw.githubusercontent.com/Aminoragit/Coupang_Event_List/main/%E1%84%8F%E1%85%AE%E1%84%91%E1%85%A1%E1%86%BC.jpeg" alt="Image"></p>
+<p>
+	<div class="logo">
+	<img src="https://raw.githubusercontent.com/Aminoragit/Coupang_Event_List/main/%E1%84%8F%E1%85%AE%E1%84%91%E1%85%A1%E1%86%BC.jpeg" alt="Image">
+	</div>
+	</p>
 <h3 style="text-align: center;">이벤트 이미지를 누르면 자동으로 이벤트 페이지로 이동합니다.</h3>
 <center><h3 style="text-align: center;">광고 차단시 이미지가 표시되지 않을 수 있습니다.</h3></center>
 <p data-ke-size="size16">&nbsp;</p>
